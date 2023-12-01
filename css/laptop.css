@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+    .burger_icon {
+      display: block;
+    }
+    .nav_div {
+      display: none;
+    }
+    /* .section_img{
+      background-image: url(../images/Rectangle\ 1\ \(2\).png);
+    } */
+  
+  }
+  
+  @media (max-width: 744px) {
+    header {
+      padding: 16px 32px;
+    }
+  
+  }
+  @media (max-width: 376px) {
+    header {
+      padding: 8px 28px;
+    }
+    .logo_img1 {
+      width: 40px;
+      height: 40px;
+     
+    }
+    .header_icon_div
+     {
+      column-gap: 16px;
+    }
+    .header_icon_div_pic{
+      width: 32px;
+      height: 32px;
+    }
+    .shoppingcart{
+      width: 32px;
+      height: 32px;
+    }
+  .burger_icon{
+    width: 32px;
+    height: 32px;
+  }
+  
+  }
