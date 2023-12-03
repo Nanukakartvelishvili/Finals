@@ -1,4 +1,5 @@
 /* container */
+/* homepage */
 .container {
     width: min(100%, 1440px);
     margin: auto;
@@ -423,4 +424,171 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
+}
+/* catalog */
+.top_section{
+  height: 145px;
+  border-top: 2px solid #05BCCA;
+background-color: #1A1A1A;
+
+}
+/* contact us */
+.hide_div{
+  display: none;
+}
+.contactus{
+  background-image: url(../images/Rectangle\ 7\ \(3\).png);
+  background-size: cover;
+  background-position: center;
+  height: 720px;
+  padding: 96px 92px 115px 730px;
+
+}
+.contactus_h3{
+  width: 616px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+.div_info{
+  background-color: #2C4246;
+  display: flex;
+  justify-content: space-between;
+width: 616px;
+padding: 35px 40px;
+gap: 24px;
+margin-top: 40px;
+}
+.vaxchemi{
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+.div_info span{
+  color: #D9D9D9;
+  font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.firstdiv_info {
+display: flex;
+align-items: center;
+gap: 16px;
+}
+.firstdiv_info img{
+  width: 24px;
+height: 24px;
+
+}
+.seconddiv_info{
+  display: flex;
+align-items: center;
+gap: 16px;
+}
+.seconddiv_info img{
+  width: 15px;
+height: 24px;
+
+}
+.location_icon{
+  width: 80px;
+height: 80px;
+}
+.column_div{
+  display: flex;
+  flex-direction: column;
+}
+.contactus_input_div{
+  display: flex;
+  gap: 40px;
+}
+.contactus_input_div{
+  margin-top: 40px;
+}
+.column_div{
+  margin-top: 16px;
+}
+.contactus_name{
+  width: 141px;
+padding: 6px 99px 6px 8px;
+background-color: #2C4246;
+}
+.contactus_email{
+  width: 141px;
+  padding: 6px 99px 6px 8px;
+  background-color: #2C4246;
+}
+.contactus_textarea{
+  width: 290px;
+padding: 6px 230px 77px 8px;
+
+}
+.column_div button{
+  width: 290px;
+  font-family: 'Inter', sans-serif;
+  padding: 8px 83px;
+justify-content: center;
+align-items: center;
+background-color: #C46A2B;
+margin-top: 24px;
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.maps{
+  width: 286px;
+height: 151px;
+}
+.contactus_name::placeholder{
+  color: #A1C3C9;
+
+  font-family: 'Inter', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+.contactus_email::placeholder{
+  color: #A1C3C9;
+  font-family: 'Inter', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+.contactus_textarea{
+  resize: none;
+  background-color: #2C4246;
+  height: 103px;
+  padding: 6px 230px 77px 8px;
+  color: #A1C3C9;
+  font-family: 'Inter', sans-serif;
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+.contactus_textarea::placeholder{
+  color: #A1C3C9;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.iconbox_contactus{
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+.iconbox_contactus i{
+  font-size: 32px;
+  color: rgb(5,188,202);
 }

@@ -20,6 +20,27 @@
     .footer_container{
       padding: 48px 98px 0 98px;
         }
+      .contactus{
+        background-position: left;
+      }
+      .contactus{
+        padding: 106px 94px 105px 314px;
+      }
+      .contactus_h3{
+        width: 295px;
+        font-size: 16px;
+line-height: 24px;
+
+      }
+
+      .div_info{
+        width: 295px;
+height: 56px;
+padding: 16px 92px;
+justify-content: center;
+align-items: center;
+
+      }
   
   }
   
@@ -47,6 +68,9 @@
     .footer_container{
       padding: 48px 32px 0 32px;
       column-gap: 149px;
+        }
+        .contactus{
+          padding: 48px 64px 48px 64px;
         }
   
   }
@@ -119,5 +143,53 @@ line-height: 32px;
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  
+  .contactus{
+    padding: 32px 40px 32px 40px;
+  }
+  .contactus_input_div{
+    display: flex;
+    flex-direction: column;
+  }
+.iconbox_contactus{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.firstdiv_info span,
+.seconddiv_info span
+{
+  display: none;
+}
+.firstdiv_info img,
+.location_icon{
+  /* width: 24px;
+  height: 24px; */
+display: none;
+}
+.seconddiv_info img{
+  /* width: 15px;
+height: 24px; */
+display: none;
+}
+.div_info{
+  width: 295px;
+height: 56px;
+padding: 16px 92px;
+justify-content: center;
+align-items: center;
+
+}
+.hide_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.hide_div img{
+
+  width: 24px;
+  height: 24px;
+}
+
   }
