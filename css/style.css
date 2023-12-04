@@ -22,6 +22,38 @@
     width: inherit;
     z-index: 1;
   }
+  .logo_img1{
+    width: 64px;
+height: 64px;
+animation: spin 5s infinite;
+  }
+  .logo:hover{
+    -webkit-animation: spin 5s infinite;
+     animation: spin 5s infinite;
+  }
+  
+  @-webkit-keyframes spin{
+    from {
+      -webkit-transform: rotateY(0deg);
+    }
+    to {
+      -webkit-transform: rotateY(-360deg);
+    }
+  }
+  
+  @keyframes spin{
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }
   .burger_icon {
     display: none;
     font-size: 32px;
@@ -215,6 +247,7 @@ color: #05BCCA;
   width: 100%;
   column-gap: 20px;
   overflow: hidden;
+  overflow: scroll;
   /* border: 1px solid red; */
 }
 
@@ -781,7 +814,7 @@ margin-top: 16px;
 }
 .price{
   margin-right: 8px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .review{
   font-size: 10px;

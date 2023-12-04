@@ -1,0 +1,54 @@
+@media (max-width: 745px) {
+
+    header {
+      padding: 16px 32px;
+    }
+    .header_nav{
+      position: fixed;
+      top: 96px;
+      background: #05BCCA;
+      left: -100%;
+      padding: 16px 56px 16px 16px;
+    }
+    .header_ul{
+      flex-direction: column;
+      row-gap: 8px;
+    }
+    .header_li a{
+      color: #C46A2B;
+    }
+    .show {
+      left: 0;
+    }
+
+    .section_2 {
+      padding: 48px 32px;
+    }
+
+    .section2_divs img {
+      width: 330px;
+      height: 240px;
+    }
+
+    .section3 {
+      padding: 96px 0 96px 32px;
+    }
+    .section_4 {
+      background-position: right;
+    }
+    .footer_container{
+      padding: 48px 32px 0 32px;
+      column-gap: 149px;
+        }
+        .contactus{
+          background-image: url(../images/Rectangle\ 7\ \(5\).png);
+          padding: 48px 64px 48px 64px;
+        }
+  
+.displaynone_tablet{
+  display: none;
+}
+.section_4{
+  background-image: url(../images/Rectangle\ 6\ \(4\).png);
+}
+  }
