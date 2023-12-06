@@ -1,4 +1,4 @@
-@media (max-width: 464px) {
+@media (max-width: 480px) {
 
   /* header */
 
@@ -86,7 +86,7 @@
   }
 }
 
-@media (max-width: 405px) {
+@media (max-width: 400px) {
 
   /* section 4 */
 
@@ -131,7 +131,7 @@
 
 /* about page */
 
-@media (max-width: 462px) {
+@media (max-width: 450px) {
 
   /* section 1 */
   .catalog {
@@ -185,7 +185,7 @@
 }
 
 /* contact page */
-@media (max-width: 378px) {
+@media (max-width: 388px) {
   .contact_div {
       margin: auto;
       margin-top: 32px;

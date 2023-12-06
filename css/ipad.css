@@ -1,4 +1,4 @@
-@media (max-width: 745px) {
+@media (max-width: 800px) {
 
   /* header */
   header {
@@ -19,7 +19,7 @@
 
 }
 
-@media (max-width: 695px) {
+@media (max-width: 700px) {
 
   /* section 2 */
   .section2_divs {
@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 550px) {
 
   /* section 2 */
   .section2_divs {
@@ -42,7 +42,7 @@
   }
 }
 
-@media (max-width: 481px) {
+@media (max-width: 460px) {
 
   /* section 2 */
 
@@ -303,7 +303,7 @@
 }
 
 
-@media (max-width: 610px) {
+@media (max-width: 590px) {
 
   .contact_div {
       justify-content: center;
